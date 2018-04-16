@@ -10,7 +10,7 @@ function __construct()
         {
        		$this->load->view('Menu_hitung');     
         }
-function perkalian()
+function Perkalian()
  {
  $data['v1']=(int)$this->input->post('v1',true);
  $data['v2']=(int)$this->input->post('v2',true);
@@ -18,7 +18,7 @@ function perkalian()
 $this->load->view('Perkalian',$data);
 }
 
-function pembagian()
+function Pembagian()
  {
  $data['v1']=(int)$this->input->post('v1',true);
  $data['v2']=(int)$this->input->post('v2',true);
